@@ -11,7 +11,7 @@ import java.util.Optional;
 
 @RestController //API
 @RequestMapping("/api/v1/movies")
-@CrossOrigin("http://localhost:3000")
+@CrossOrigin("*")
 public class MovieController {
     @Autowired
     private MovieService movieService;
