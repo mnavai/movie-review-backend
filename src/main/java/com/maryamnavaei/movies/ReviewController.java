@@ -9,7 +9,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/v1/reviews")
-@CrossOrigin("http://localhost:3000")
+@CrossOrigin("*")
 public class ReviewController {
     @Autowired
     private ReviewService reviewService;
